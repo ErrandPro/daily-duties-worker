@@ -1,0 +1,14 @@
+{
+  "name": "daily-duties-worker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Sends due Daily Duties reminders as web push notifications",
+  "scripts": {
+    "start": "node send-reminders.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "web-push": "^3.6.7"
+  }
+}
